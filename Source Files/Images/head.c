@@ -1,0 +1,18 @@
+/* GIMP RGB C-Source image dump (head.c) */
+
+#define HEAD_WIDTH (12)
+#define HEAD_HEIGHT (12)
+#define HEAD_BYTES_PER_PIXEL (2) /* 2:RGB16, 3:RGB, 4:RGBA */
+#define HEAD_COMMENT \
+  "Created with GIMP"
+#define HEAD_PIXEL_DATA ((unsigned char*) HEAD_pixel_data)
+static const unsigned char HEAD_pixel_data[12 * 12 * 2 + 1] =
+("\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037"
+ "x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x"
+ "\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037"
+ "x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x"
+ "\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037"
+ "x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x"
+ "\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037"
+ "x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x\037x");
+

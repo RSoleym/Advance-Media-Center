@@ -1,0 +1,26 @@
+# Keil / ARM
+*.axf
+*.crf
+*.d
+*.dep
+*.htm
+*.lnp
+*.lst
+*.map
+*.o
+*.plg
+*.sct
+*.tra
+*.uvgui*
+*.uvopt
+*.uvoptx
+
+# Quartus
+db/
+incremental_db/
+output_files/
+*.qws
+
+# Editors / OS
+.vscode/
+.DS_Store

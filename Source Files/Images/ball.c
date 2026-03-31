@@ -1,0 +1,15 @@
+/* GIMP RGB C-Source image dump (ball.c) */
+
+#define BALL_WIDTH (6)
+#define BALL_HEIGHT (6)
+#define BALL_BYTES_PER_PIXEL (2) /* 2:RGB16, 3:RGB, 4:RGBA */
+#define BALL_COMMENT \
+  "Created with GIMP"
+#define BALL_PIXEL_DATA ((unsigned char*) BALL_pixel_data)
+static const unsigned char BALL_pixel_data[32 * 16 * 2 + 1] =
+(
+  "\000\000\302R\301\336\301\336\302R\000\000\302R\340\377\340\377\340\377\340\377\302"
+  "R\301\336\340\377\340\377\340\377\340\377\301\336\301\336\340\377\340\377"
+  "\340\377\340\377\301\336\302R\340\377\340\377\340\377\340\377\302R\000\000\302"
+  "R\301\336\301\336\302R\000\000"
+);
